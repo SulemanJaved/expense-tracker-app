@@ -7,6 +7,7 @@ import { Balance } from './components/Balance'
 import { AccountSummary } from './components/AccountSummary'
 import { TransactionHistory } from './components/TransactionHistory'
 import { AddTransaction } from './components/AddTransaction'
+import { Footer } from './components/Footer'
 
 // Import Golabal Provider
 import { GlobalProvider } from './context/GlobalState';
@@ -22,6 +23,7 @@ function App() {
         <TransactionHistory/>
         <AddTransaction/>
       </div>
+      <Footer/>
     </GlobalProvider>
   );
 }
