@@ -3,6 +3,7 @@ import './App.css';
 
 // Import Components
 import { Header } from './components/Header'
+import { Instructions } from './components/Instructions'
 import { Balance } from './components/Balance'
 import { AccountSummary } from './components/AccountSummary'
 import { TransactionHistory } from './components/TransactionHistory'
@@ -17,6 +18,7 @@ function App() {
   return (
     <GlobalProvider>
       <Header/>
+      <Instructions/>
       <div className="container">
         <Balance/>
         <AccountSummary/>
