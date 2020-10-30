@@ -52,6 +52,12 @@ h4 {
 h5 {
   font-size: small;
   margin: 0;
+  text-align: left;
+}
+
+h6 {
+  font-size: small;
+  margin: 0;
   text-align: center;
 }
 

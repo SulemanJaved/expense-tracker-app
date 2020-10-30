@@ -2,11 +2,11 @@
  
  export const Footer = () => {
      return (
-         <h5>
+         <h6>
              <br/>
              <br/>
-             <h5>Made by M.S.J</h5>
-         </h5>
+             Made by M.S.J
+         </h6>
      )
 }
  
